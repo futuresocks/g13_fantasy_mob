@@ -1,8 +1,12 @@
 import enemies.Troll;
 import org.junit.Before;
+import org.junit.Test;
 import players.warriors.Knight;
+import players.warriors.weapons.Sword;
 import roomStuffMagicBeans.Treasure;
 import rooms.Room;
+
+import static org.junit.Assert.assertEquals;
 
 public class RoomTest {
 
@@ -15,9 +19,19 @@ public class RoomTest {
     public void setUp(){
         troll = new Troll("Steve Mieklejohn");
         treasure = new Treasure();
-        knight = new Knight("Sir Bobby Slayer");
-        room = new Room();
-
+        Sword sword = new Sword();
+        knight = new Knight("Sir Bobby Slayer", sword);
+        room = new Room(treasure, troll);
+        room.setPlayer(knight);
     }
+
+    @Test
+    public void canCompleteRoom(){
+        room.play();
+        assertEquals(null, room.getTreasure());
+        assertEquals(true, room.getEnemy().isDead());
+        assertEquals(1, knight.countOfTreasure());
+    }
+
 
 }

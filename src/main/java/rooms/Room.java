@@ -39,4 +39,12 @@ public class Room {
     public void setPlayer(Player player) {
         this.player = player;
     }
+
+    public void play() {
+        this.player.attack(this.enemy);
+        if(enemy.isDead()){
+            this.player.addTreasure(this.treasure);
+            this.treasure = null;
+        }
+    }
 }

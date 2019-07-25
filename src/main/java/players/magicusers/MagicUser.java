@@ -1,5 +1,6 @@
 package players.magicusers;
 
+import enemies.Enemy;
 import players.Player;
 import players.magicusers.Spell;
 
@@ -12,5 +13,7 @@ public abstract class MagicUser extends Player {
         this.spell = spell;
         this.mythicalCreature = mythicalCreature;
     }
+
+    public void attack(Enemy enemy){};
 
 }

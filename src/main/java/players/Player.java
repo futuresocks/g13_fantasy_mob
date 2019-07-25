@@ -1,5 +1,6 @@
 package players;
 
+import enemies.Enemy;
 import roomStuffMagicBeans.Treasure;
 
 import java.util.ArrayList;
@@ -45,4 +46,6 @@ public abstract class Player {
     public void setHealthPoints(int newHp){
         this.healthPoints = newHp;
     };
+
+    public abstract void attack(Enemy enemy);
 }
