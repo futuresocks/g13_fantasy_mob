@@ -39,7 +39,7 @@ public class DwarfTest {
     @Test
     public void canAddTreasure(){
         Treasure treasure = new Treasure();
-        dwarf.addTreasure();
-        assertEquals();
+        dwarf.addTreasure(treasure);
+        assertEquals(1, dwarf.countOfTreasure());
     }
 }
