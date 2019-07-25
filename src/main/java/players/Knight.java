@@ -8,4 +8,8 @@ public class Knight extends Warrior{
         super(name, 40);
         this.armour = 30;
     }
+
+    public int getArmour() {
+        return armour;
+    }
 }
