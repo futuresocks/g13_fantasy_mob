@@ -31,4 +31,11 @@ public abstract class Player {
     public void addTreasure(Treasure treasure){
         this.treasures.add(treasure);
     }
+
+
+    public void reduceHealth(int damage) {
+        this.healthPoints -= damage;
+    }
+
+
 }

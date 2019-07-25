@@ -1,6 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 import players.Dwarf;
+import roomStuffMagicBeans.Treasure;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -27,5 +28,18 @@ public class DwarfTest {
     @Test
     public void treasureArrayStartsEmpty() {
         assertEquals(0, dwarf.getTreasures().size());
+    }
+
+    @Test
+    public void canReduceHealthPoints(){
+        dwarf.reduceHealth(1);
+        assertEquals(19,dwarf.getHealthPoints());
+    }
+
+    @Test
+    public void canAddTreasure(){
+        Treasure treasure = new Treasure();
+        dwarf.addTreasure();
+        assertEquals();
     }
 }
