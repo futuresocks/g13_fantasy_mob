@@ -1,4 +1,4 @@
-import Enemy.Troll;
+import enemies.Troll;
 import org.junit.Before;
 import org.junit.Test;
 

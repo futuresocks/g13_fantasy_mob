@@ -1,4 +1,4 @@
-package Enemy;
+package enemies;
 
 public abstract class Enemy {
 
@@ -17,4 +17,12 @@ public abstract class Enemy {
     public int getHealthPoints() {
         return healthPoints;
     }
+
+    public void reduceHealth(int damage) {
+        this.healthPoints -= damage;
+    }
+
+    public boolean isDead(){
+        return this.healthPoints == 0;
+    };
 }

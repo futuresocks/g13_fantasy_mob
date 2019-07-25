@@ -1,6 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 import players.warriors.Dwarf;
+import players.warriors.weapons.Sword;
 import roomStuffMagicBeans.Treasure;
 
 import static org.junit.Assert.assertEquals;
@@ -12,7 +13,8 @@ public class DwarfTest {
 
     @Before
     public void before(){
-        dwarf = new Dwarf("Plop Undergrowth");
+        Sword sword = new Sword();
+        dwarf = new Dwarf("Plop Undergrowth", sword);
     }
 
     @Test

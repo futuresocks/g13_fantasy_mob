@@ -1,11 +1,13 @@
 package players.warriors;
 
+import behaviours.IWeapon;
+
 public class Knight extends Warrior {
 
     private int armour;
 
-    public Knight(String name) {
-        super(name, 40);
+    public Knight(String name, IWeapon weapon) {
+        super(name, 40, weapon);
         this.armour = 30;
     }
 
