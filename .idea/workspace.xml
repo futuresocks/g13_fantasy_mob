@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f1e0608-8fc6-4362-8450-b5c30fd7a8f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/players/magicusers/MagicUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/players/magicusers/Spell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Behaviours/IWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/warriors/Barbarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/warriors/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/warriors/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/warriors/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DwarfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/KnightTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,23 +35,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="1335" />
+          <entry key="java" value="1936" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1335" />
+          <entry key="JAVA" value="1936" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -50,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/players/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="888">
-              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="213">
+              <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="46" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#260#261#0" expanded="true" />
@@ -66,25 +78,27 @@
                 <element signature="e#781#782#0" expanded="true" />
                 <element signature="e#819#820#0" expanded="true" />
                 <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/players/Warrior.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/players/warriors/Warrior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="192">
+              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/players/Dwarf.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/players/warriors/Dwarf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="96">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
                 <element signature="e#105#106#0" expanded="true" />
                 <element signature="e#146#147#0" expanded="true" />
@@ -94,30 +108,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DwarfTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/players/warriors/Barbarian.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/players/Barbarian.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="72">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
                 <element signature="e#111#112#0" expanded="true" />
                 <element signature="e#152#153#0" expanded="true" />
@@ -141,12 +135,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/players/Knight.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/players/warriors/Knight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="346">
+              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
               <folding>
+                <element signature="e#199#200#0" expanded="true" />
                 <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,8 +152,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/KnightTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="495">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#117#118#0" expanded="true" />
@@ -169,19 +166,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/IWeapon.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/players/magicusers/MagicUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="209">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/roomStuffMagicBeans/Treasure.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/players/magicusers/Spell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
+            <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -203,14 +212,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/roomStuffMagicBeans/Treasure.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Behaviours/IWeapon.java" />
         <option value="$PROJECT_DIR$/src/main/java/players/Warrior.java" />
         <option value="$PROJECT_DIR$/src/main/java/players/Dwarf.java" />
         <option value="$PROJECT_DIR$/src/test/java/DwarfTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/players/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/players/Barbarian.java" />
         <option value="$PROJECT_DIR$/src/test/java/BarbarianTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/players/Knight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Behaviours/IWeapon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/players/Magic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/players/MagicUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/players/Spell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/players/magicusers/Spell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/players/warriors/Knight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/players/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/KnightTest.java" />
       </list>
     </option>
@@ -260,7 +274,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Behaviours" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviours" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="G13FantasyMob" type="b2602c69:ProjectViewProjectNode" />
@@ -269,6 +283,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="players" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="G13FantasyMob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="G13FantasyMob" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="players" type="462c0819:PsiDirectoryNode" />
+              <item name="magicusers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="G13FantasyMob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="G13FantasyMob" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="players" type="462c0819:PsiDirectoryNode" />
+              <item name="warriors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="G13FantasyMob" type="b2602c69:ProjectViewProjectNode" />
@@ -300,11 +332,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564058471338" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564059626419" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="players" />
       <recent name="roomStuffMagicBeans" />
     </key>
   </component>
@@ -320,21 +353,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KnightTest.hasArmour">
+  <component name="RunManager" selected="JUnit.KnightTest.canTakeDamage">
     <configuration name="BarbarianTest.canGetHealthPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="G13FantasyMob" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BarbarianTest" />
       <option name="METHOD_NAME" value="canGetHealthPoints" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DwarfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="G13FantasyMob" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DwarfTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -349,11 +374,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DwarfTest.getTreasure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KnightTest.addPointsToArmour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="G13FantasyMob" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DwarfTest" />
-      <option name="METHOD_NAME" value="getTreasure" />
+      <option name="MAIN_CLASS_NAME" value="KnightTest" />
+      <option name="METHOD_NAME" value="addPointsToArmour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnightTest.canTakeDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="G13FantasyMob" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KnightTest" />
+      <option name="METHOD_NAME" value="canTakeDamage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -370,19 +405,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DwarfTest" />
-      <item itemvalue="JUnit.DwarfTest.getTreasure" />
       <item itemvalue="JUnit.DwarfTest.canAddTreasure" />
       <item itemvalue="JUnit.BarbarianTest.canGetHealthPoints" />
       <item itemvalue="JUnit.KnightTest.hasArmour" />
+      <item itemvalue="JUnit.KnightTest.addPointsToArmour" />
+      <item itemvalue="JUnit.KnightTest.canTakeDamage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KnightTest.canTakeDamage" />
+        <item itemvalue="JUnit.KnightTest.addPointsToArmour" />
         <item itemvalue="JUnit.KnightTest.hasArmour" />
         <item itemvalue="JUnit.BarbarianTest.canGetHealthPoints" />
         <item itemvalue="JUnit.DwarfTest.canAddTreasure" />
-        <item itemvalue="JUnit.DwarfTest" />
-        <item itemvalue="JUnit.DwarfTest.getTreasure" />
       </list>
     </recent_temporary>
   </component>
@@ -417,6 +452,12 @@
     </history-entry>
     <history-entry file="BarbarianTest_canGetHealthPoints - 2019.07.25 at 13h 26m 47s.xml">
       <configuration name="BarbarianTest.canGetHealthPoints" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KnightTest_hasArmour - 2019.07.25 at 13h 40m 36s.xml">
+      <configuration name="KnightTest.hasArmour" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KnightTest_addPointsToArmour - 2019.07.25 at 13h 46m 03s.xml">
+      <configuration name="KnightTest.addPointsToArmour" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -465,31 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/IWeapon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/players/Dwarf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/players/Warrior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DwarfTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -508,17 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/players/Barbarian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BarbarianTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -531,10 +536,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/players/warriors/Barbarian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/players/warriors/Dwarf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/players/magicusers/Spell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/players/magicusers/MagicUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/players/warriors/Warrior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/players/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="213">
+          <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="46" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#260#261#0" expanded="true" />
@@ -549,24 +607,29 @@
             <element signature="e#781#782#0" expanded="true" />
             <element signature="e#819#820#0" expanded="true" />
             <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/players/Knight.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/players/warriors/Knight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="346">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding>
+            <element signature="e#199#200#0" expanded="true" />
             <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/KnightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="495">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#117#118#0" expanded="true" />

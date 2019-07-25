@@ -1,6 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
-import players.Dwarf;
+import players.warriors.Dwarf;
 import roomStuffMagicBeans.Treasure;
 
 import static org.junit.Assert.assertEquals;

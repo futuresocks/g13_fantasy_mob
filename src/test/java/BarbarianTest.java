@@ -1,6 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
-import players.Barbarian;
+import players.warriors.Barbarian;
 
 import static org.junit.Assert.assertEquals;
 

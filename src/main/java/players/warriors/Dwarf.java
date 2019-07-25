@@ -1,4 +1,4 @@
-package players;
+package players.warriors;
 
 public class Dwarf extends Warrior {
 

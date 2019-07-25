@@ -1,6 +1,8 @@
-package players;
+package players.warriors;
 
-public abstract class Warrior extends Player{
+import players.Player;
+
+public abstract class Warrior extends Player {
 
 //    private Weapon weapon;
 

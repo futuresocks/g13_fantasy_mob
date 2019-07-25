@@ -41,4 +41,8 @@ public abstract class Player {
     public int countOfTreasure() {
         return this.treasures.size();
     }
+
+    public void setHealthPoints(int newHp){
+        this.healthPoints = newHp;
+    };
 }
